@@ -20,7 +20,7 @@ pip install selenium
 
 Thai Ticket Major has recently implemented several new security measures to prevent automated ticket purchases. This bot has not been developed to handle these challenges.
 
-Text-based CAPTCHA: A new Text-based CAPTCHA has been added to the ticket purchasing process after the queue. If encountered, you will need to manually download an OCR library, such as PyTesseract, to solve it. 
+Text-based CAPTCHA: A new Text-based CAPTCHA has been added to the ticket purchasing process after the queue. I have integrated an OCR library but have not yet implemented the code. If encountered, you have to write your own code. 
 
 Randomized Queue Questions: After passing the initial queue, the website now presents a random question to verify you are not a bot. For example, it might ask you to identify an event venue from a list of three options.
 
